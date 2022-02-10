@@ -14,11 +14,4 @@ add_hook('ClientAreaPrimaryNavbar', 1, function (MenuItem $primaryNavbar)
                        ->getChild('Knowledgebase')
                        ->setURI('https://help.xmhosts.com');
    }
-   
-   if (!is_null($primaryNavbar->getChild('Network Status'))) {
-    $primaryNavbar->getChild('Network Status')
-                    ->setURI('https://status.xmhosts.com');
-   
-   
-}     
 });
