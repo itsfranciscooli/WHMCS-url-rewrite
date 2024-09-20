@@ -1,6 +1,8 @@
 # WHMCS-url-rewrite
-With this hook you can rewrite the Knowledge base URL in your client area.
+With this hook, you can rewrite the Knowledgebase, Network Status, and Announcements URLs in your client area.
 
-Upload it in whmcs-folder\includes\hooks
+You can remove part of the code so that it only affects a specific division.
 
-This is an example of a URL rewrite. 
+Upload it to the whmcs-folder/includes/hooks.
+
+This is an example of a URL rewrite.
